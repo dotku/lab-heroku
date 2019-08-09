@@ -16,7 +16,9 @@
     "url": "git+https://github.com/dotku/lab-heroku.git"
   },
   "keywords": [],
-  "engines" : { "node" : ">=10.16" },
+  "engines" : {
+    "node" : "10.16.0"
+  },
   "author": "",
   "license": "ISC",
   "bugs": {
