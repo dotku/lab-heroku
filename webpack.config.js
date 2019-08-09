@@ -1,5 +1,10 @@
 const HtmlWebPackPlugin = require("html-webpack-plugin");
 const path = require('path');
+
+new webpack.DefinePlugin({
+  VERSION: JSON.stringify('5fa3b9'),
+});
+
 module.exports = {
   module: {
     rules: [

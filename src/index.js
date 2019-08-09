@@ -8,6 +8,7 @@ const EasyList = ({data, tag: Elem = 'li'}) => {
 }
 
 function Root() {
+  console.log(VERSION);
   const liParagraphs = (new LoremIpsum().generateParagraphs(3)).split('\n');
   const TestTag = 'p';
   return (
