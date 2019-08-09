@@ -1,6 +1,6 @@
 {
   "name": "lab-heroku",
-  "version": "1.0.0",
+  "version": "1.0.21",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -15,8 +15,9 @@
     "url": "git+https://github.com/dotku/lab-heroku.git"
   },
   "keywords": [],
-  "engines" : {
-    "node" : "10.16.0"
+  "engines": {
+    "node": "10.16.0",
+    "npm": "6.10.1"
   },
   "author": "",
   "license": "ISC",
