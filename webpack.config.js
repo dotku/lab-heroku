@@ -1,6 +1,7 @@
 const HtmlWebPackPlugin = require("html-webpack-plugin");
 const path = require('path');
 const webpack = require('webpack');
+const package = require("./package.json");
 
 module.exports = {
   module: {
@@ -28,7 +29,9 @@ module.exports = {
       filename: "./index.html"
     }),
     new webpack.DefinePlugin({
-      VERSION: JSON.stringify('5fa3b9'),
+      ENV: JSON.stringify(process.env),
+      NAME: JSON.stringify(package.name),
+      VERSION: JSON.stringify(package.version),
     })
   ]
 };

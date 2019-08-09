@@ -8,7 +8,8 @@ const EasyList = ({data, tag: Elem = 'li'}) => {
 }
 
 function Root() {
-  console.log(VERSION);
+  console.log(`${NAME} ${VERSION}`);
+  !!ENV && console.log(`ENV ${JSON.stringify(ENV)}`);
   const liParagraphs = (new LoremIpsum().generateParagraphs(3)).split('\n');
   const TestTag = 'p';
   return (
