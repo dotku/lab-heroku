@@ -32,6 +32,7 @@
     "webpack-dev-server": "^3.7.2"
   },
   "dependencies": {
+    "lorem-ipsum": "^2.0.3",
     "react": "^16.9.0",
     "react-dom": "^16.9.0"
   }
